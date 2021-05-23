@@ -1,8 +1,8 @@
 import random, sys
 
 from Heapsort import heap_sort
-from Bubblesort import bubble_sort
 from Quicksort import quick_sort_test
+from Bubblesort import bubble_sort
 sys.setrecursionlimit(55000)
 
 

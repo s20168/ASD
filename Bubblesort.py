@@ -1,7 +1,7 @@
 import time
 
 
-def bubble_sort(our_list):
+def bubble_sort(arr):
     start_time = time.time()
     has_swapped = True
 
@@ -9,10 +9,10 @@ def bubble_sort(our_list):
 
     while has_swapped:
         has_swapped = False
-        for i in range(len(our_list) - num_of_iterations - 1):
-            if our_list[i] > our_list[i + 1]:
+        for i in range(len(arr) - num_of_iterations - 1):
+            if arr[i] > arr[i + 1]:
 
-                our_list[i], our_list[i + 1] = our_list[i + 1], our_list[i]
+                arr[i], arr[i + 1] = arr[i + 1], arr[i]
                 has_swapped = True
         num_of_iterations += 1
     end_time = time.time()
