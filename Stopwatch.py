@@ -6,7 +6,7 @@ from Bubblesort import bubble_sort
 sys.setrecursionlimit(55000)
 
 
-class Timer:
+class Stopwatch:
     def count(self):
         random_array_high = []
         for i in range(0, 20000):
@@ -54,5 +54,5 @@ class Timer:
 
 
 if __name__ == '__main__':
-    xx = Timer()
+    xx = Stopwatch()
     xx.count()
